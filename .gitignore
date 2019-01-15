@@ -1,0 +1,2 @@
+# exclude secrets file since it will contain login information
+secrets.cfm
