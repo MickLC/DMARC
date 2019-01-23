@@ -26,6 +26,7 @@ elif [[ $filename =~ \.gz$ ]];
 then
 echo unzipping $f >> $LOG
 gunzip $filename
+chmod 664 $DIR/process/extract/$i/*.xml
 cp $DIR/process/extract/$i/*.xml /tmp
 fi
 done
